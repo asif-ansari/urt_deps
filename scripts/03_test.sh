@@ -1,13 +1,10 @@
 #!/usr/bin/env bash
-
-SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-BUILD_TYPE="$1"
+# TODO: This is just a placeholder for running tests.
 
 echo "------------------------------------------------------"
-echo "                    TESTS                             "
+echo "               TESTS  - ${LIB_NAME} - ${BUILD_TYPE}   "
 echo "------------------------------------------------------"
-OS=$(uname)
-echo "OS     = ${OS}"
+echo "               OS     = ${OSTYPE}                     "
 echo "------------------------------------------------------"
 
 # TODO: Accept list of Tests and execute one by one
