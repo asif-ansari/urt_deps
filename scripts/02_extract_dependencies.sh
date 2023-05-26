@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# TODO: Now it is not used. This is borrowed from URT project. We can use it for extracting the files.
+# No extra variables to be declared here. All variables should be exported from run_all.sh script
 
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
